@@ -802,7 +802,7 @@
   content: "\e260"; }
 
 .left_col {
-  background: #2A3F54; }
+  background: #c3232d; }
 
 .container {
   width: 100%;
@@ -1031,7 +1031,7 @@ body .container.body .right_col {
 .nav_title {
   width: 230px;
   float: left;
-  background: #2A3F54;
+  background: #ededed;
   border-radius: 0;
   height: 57px;
   padding: 0px; }
@@ -4968,3 +4968,9 @@ ul.notifications {
 
 .calendar-exibit .calendar-table {
   padding: 0 0 4px 0; }
+
+
+  table .btn-primary {
+    float: left;
+    padding: 4px 7px !important;
+}

@@ -1,0 +1,286 @@
+{% extends 'admin/bars.html.twig' %}
+
+{% block contenpage %}
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <div class="">
+        <div class="page-title">
+            <div class="title_left">
+                <h5><a href="{{ path('app_admin_campaigns') }}">Campaign List</a> >> Campaign </h5>
+            </div>
+
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <h2>Campaign</h2>
+                        <ul class="nav navbar-right panel_toolbox">
+                            <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                            </li>
+                            <li><a class="close-link"><i class="fa fa-close"></i></a>
+                            </li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+                    {{ dump(campaignForm) }}
+
+                        {{ form_start(campaignForm) }}
+
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">{{ form_row(campaignForm.campaignName) }}</div>
+                            <div class="col-md-3 col-sm-12">{{ form_row(campaignForm.campaignId) }}</div>                          
+                            <div class="col-md-3 col-sm-12">{{ form_row(campaignForm.pipedriveId) }}</div>
+                        </div>
+
+                         <div class="row">
+                            <div class="col-md-6 col-sm-6">{{ form_row(campaignForm.agency) }}</div>
+                            <div class="col-md-6 col-sm-6">{{ form_row(campaignForm.advertiser) }}</div>
+                            
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-12">{{ form_row(campaignForm.status) }}</div>
+                            <div class="col-md-3 col-sm-12">{{ form_row(campaignForm.lineItemsJson) }}</div>
+                        </div>
+                        <p></p>
+                        <span class="section">Period</span>                        
+                       
+                        <div class="row">
+                            <div class="col-md-3 col-sm-12">{{ form_row(campaignForm.startDate) }}</div>
+                            <div class="col-md-3 col-sm-12">{{ form_row(campaignForm.endDate) }}</div>
+                        </div>
+
+                        
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">{{ form_row(campaignForm.bookingType, {'attr': {'id': 'bookingType'}}) }}</div>
+                            <div class="col-md-3 col-sm-12 programmaticFields">{{ form_row(campaignForm.seatId) }}</div>
+                            <div class="col-md-3 col-sm-12 programmaticFields">{{ form_row(campaignForm.agencyDsp) }}</div>
+                        </div>
+                        <p></p>
+                        <span class="section">Goals & Targeting</span>  
+                                                
+                        <div class="row">
+                            <div class="col-md-3 col-sm-12">{{ form_row(campaignForm.globalBudget) }}</div>
+                            <div class="col-md-3 col-sm-12">{{ form_row(campaignForm.format) }}</div>
+                            <div class="col-md-3 col-sm-12">{{ form_row(campaignForm.markets) }}</div>
+                            <div class="col-md-3 col-sm-12">{{ form_row(campaignForm.kpis) }}</div>
+                        </div>
+
+                         <div class="row">
+                            <div class="col-md-3 col-sm-12">{{ form_row(campaignForm.inclusionList) }}</div>
+                            <div class="col-md-3 col-sm-12">{{ form_row(campaignForm.boFile) }}</div>
+                            <div class="col-md-3 col-sm-12">{{ form_row(campaignForm.briefFile) }}</div>
+                            <div class="col-md-3 col-sm-12">{{ form_row(campaignForm.LineItemsFile) }}</div>
+                        </div>
+                       
+                        <div class="container">
+  
+                            <div id="table" class="table-editable">
+                                <span class="table-add glyphicon glyphicon-plus"></span>
+                                <table class="table">
+                                <tr>
+                                    <th>LineItem ID</th>
+                                    <th>Order Number</th>
+                                    <th>Geo</th>
+                                    <th>Booking Type</th>
+                                    <th>KPI</th>
+                                    <th>Language</th>
+                                    <th>Goal</th>
+                                    <th>Unit</th>
+                                    <th>Volume</th>
+                                    <th>Budget</th>
+                                    <th>Format</th>
+                                    <th>Start Date</th>
+                                    <th>End Date</th>
+                                    <th>Credit Note</th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                                <tr class="hide">
+                                    <td>Add here ...</td>
+                                    <td contenteditable="true">Add here ...</td>
+                                    {#<td>
+                                      
+                                          <input id="tags_1" type="text" class="tags form-control" value="France, adverts, sale" />
+										 <div id="suggestions-container" style="position: relative; float: left; width: 250px; margin: 10px;"></div> 
+                                    </td>#}
+                                    <td contenteditable="true">Add here ...</td>
+                                    <td contenteditable="true">Add here ...</td>
+                                    <td contenteditable="true">Add here ...</td>
+                                    <td contenteditable="true">Add here ...</td>
+                                    <td contenteditable="true">Add here ...</td>
+                                    <td contenteditable="true">Add here ...</td>
+                                    <td contenteditable="true">Add here ...</td>
+                                    <td contenteditable="true">Add here ...</td>
+                                    <td contenteditable="true">Add here ...</td>
+                                    <td contenteditable="true">Add here ...</td>
+                                    <td contenteditable="true">Add here ...</td>
+                                    <td contenteditable="true">Add here ...</td>
+                                    <td>
+                                    <span class="table-remove glyphicon glyphicon-remove"></span>
+                                    </td>
+                                    <td>
+                                    <span class="table-up glyphicon glyphicon-arrow-up"></span>
+                                    <span class="table-down glyphicon glyphicon-arrow-down"></span>
+                                    </td>
+                                </tr>
+                                </table>
+                        </div>
+                            
+                            {# <span id="export-btn" class="btn btn-primary">Export Data</span> #}
+                            <input id="export" type="text"/>
+                            </div>
+                        {% block javascripts %}
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+                            <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+                            <script>
+                                document.querySelector('#campaign_form_LineItemsFile_file').addEventListener('change', function(event) {
+                                    var file = event.target.files[0];
+                                    var reader = new FileReader();
+
+                                    reader.onload = function(event) {
+                                        var data = event.target.result;
+
+                                        if (file.type === 'text/csv') {
+                                            var results = Papa.parse(data, {header: true});
+                     
+                                            var $table = $('#table').find('table');
+                                            $table.find('tr:not(:first, .hide)').remove();
+                                            results.data.forEach(function(result) {
+                                                
+                                                var $ligne = $('<tr>');
+                                                $ligne.append('<td>' + result.lineItemId + '</td>');
+                                                $ligne.append('<td>' + result.orderNumber + '</td>');
+                                                $ligne.append('<td>' + result.geo + '</td>');
+                                                $ligne.append('<td>' + result.bookingType + '</td>');
+                                                $ligne.append('<td>' + result.kpi + '</td>');
+                                                $ligne.append('<td>' + result.language + '</td>');
+                                                $ligne.append('<td>' + result.goal + '</td>');
+                                                $ligne.append('<td>' + result.unit + '</td>');
+                                                $ligne.append('<td>' + result.volume + '</td>');
+                                                $ligne.append('<td>' + result.budget + '</td>');
+                                                $ligne.append('<td>' + result.format + '</td>');
+                                                $ligne.append('<td>' + result.startDate + '</td>');
+                                                $ligne.append('<td>' + result.endDate + '</td>');
+                                                $ligne.append('<td>' + result.creditNote + '</td>');
+                                                $ligne.append('<td><span class="table-remove glyphicon glyphicon-remove"></span></td>');
+                                                $ligne.append('<td><span class="table-up glyphicon glyphicon-arrow-up"></span><span class="table-down glyphicon glyphicon-arrow-down"></span></td>');
+                            
+                                                $table.append($ligne);
+                                            });
+                                            
+                                        } else if (file.type === 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet') {
+                                            var workbook = XLSX.read(data, {type: 'binary'});
+                                           console.log(workbook); // Affichez les données dans le tableau...
+                                        }
+                                    };
+
+                                    if (file.type === 'text/csv') {
+                                        reader.readAsText(file);
+                                    } else if (file.type === 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet') {
+                                        reader.readAsBinaryString(file);
+                                    }
+                                });
+                            </script>
+
+
+                              
+                            
+                            <script>
+                                var $TABLE = $('#table');
+                                var $BTN = $('#export-btn');
+                                var $EXPORT = $('#export');
+                                var $EXPORT2 = $('#campaign_form_lineItemsJson');
+
+
+                                $('#table').on('click', '.table-add', function() {
+                                    var $clone = $TABLE.find('tr.hide').clone(true).removeClass('hide table-line');
+                                    $TABLE.find('table').append($clone);
+                                    });
+
+                                    $('#table').on('click', '.table-remove', function() {
+                                    $(this).parents('tr').detach();
+                                    });
+
+                                    $('#table').on('click', '.table-up', function() {
+                                    var $row = $(this).parents('tr');
+                                    if ($row.index() === 1) return; // Don't go above the header
+                                    $row.prev().before($row.get(0));
+                                    });
+
+                                    $('#table').on('click', '.table-down', function() {
+                                    var $row = $(this).parents('tr');
+                                    $row.next().after($row.get(0));
+                                    });
+
+
+
+                                // A few jQuery helpers for exporting only
+                                jQuery.fn.pop = [].pop;
+                                jQuery.fn.shift = [].shift;
+
+                                function updateExportData() {
+                                    var $rows = $TABLE.find('tr:not(:hidden)');
+                                    var headers = [];
+                                    var data = [];
+                                    
+                                    $($rows.shift()).find('th:not(:empty)').each(function () {
+                                        headers.push($(this).text().toLowerCase());
+                                    });
+                                    
+                                    $rows.each(function () {
+                                        var $td = $(this).find('td');
+                                        var h = {};
+                                        
+                                        headers.forEach(function (header, i) {
+                                        h[header] = $td.eq(i).text();   
+                                        });
+                                        
+                                        data.push(h);
+                                    });
+
+                                    $EXPORT.val(JSON.stringify(data));
+                                    $EXPORT2.val(JSON.stringify(data));
+                                }
+
+                                $TABLE.on('blur', '[contenteditable]', updateExportData); // On edit cells
+                                $TABLE.on('click', '.table-add, .table-remove, .table-up, .table-down', updateExportData); // On row operations
+
+                                            
+                            </script>
+
+                            <script>
+                                $(document).ready(function() {
+                                    function toggleFields() {
+                                        if ($('#campaign_form_bookingType').val() === 'Programmatic') {
+                                            $('.programmaticFields').show();
+                                        } else {
+                                            $('.programmaticFields').hide();
+                                        }
+                                    }
+
+                                    // Appeler la fonction chaque fois que la valeur du select change
+                                    $('#campaign_form_bookingType').on('change', toggleFields);
+
+                                    // Appeler la fonction au chargement de la page pour définir l'état initial
+                                    toggleFields();
+                                });
+                            </script>
+                        {% endblock %}
+                        <div class="ln_solid"></div>
+                        <div class="item form-group">
+                            <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
+                                <a class="btn btn-warning" href="{{ path('app_admin_campaigns') }}">Cancel</a>
+                                <button type="submit" name="valider" class="btn btn-success">Save</button>
+                            </div>
+                        </div>
+                        {{ form_end(campaignForm) }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

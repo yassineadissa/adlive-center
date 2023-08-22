@@ -1,6 +1,6 @@
 backend:
   global:
-    welcome: Bienvenue
+    welcome: Bienvenue à Adlive Center
     you_are_logged: Vous êtes connecté en tant que
     leave_impersonate: Quitter l'impersonnation
     change_my_password: Changer mon mot de passe
@@ -17,6 +17,7 @@ backend:
     user: Utilisateur
     manage: Gérer
     categories: Categorie
+    campaigns : Campagnes
     blog: Blog
     history: Historique
     settings: Parametre

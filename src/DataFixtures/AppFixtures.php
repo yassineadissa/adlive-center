@@ -24,6 +24,8 @@ class AppFixtures extends Fixture
             'ROLE_EDITORIAL' => 'Manager',
             'ROLE_ADMINISTRATOR' => 'Admin',
             'ROLE_WRITER' => 'Redacteur',
+            'ROLE_AGENCY' => 'Agency',
+            'ROLE_PUBLISHER' => 'Publisher',
         ];
 
         foreach ($roles as $key => $value) {
@@ -42,7 +44,7 @@ class AppFixtures extends Fixture
             $user->setRoles(['ROLE_SUPERUSER']);
             $user->setPassword($this->userPasswordHasher->hashPassword($user, 'admin'));
             $user->setNomComplet('Admin');
-            $user->setEmail('admin@example.com');
+            $user->setEmail('yassine@adlive.io');
             $user->setValid(true);
             $user->setDeleted(false);
             $user->setAdmin(true);

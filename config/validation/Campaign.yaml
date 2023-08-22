@@ -1,0 +1,14 @@
+App\Entity\Campaign:
+    properties:
+        boFile:
+            File:
+                mimeTypes: 
+                    'application/vnd.ms-excel'
+                    'text/plain'
+                    'text/csv'
+                    'application/csv'
+                    'text/comma-separated-values'
+                    'application/excel'
+                    'application/vnd.msexcel'
+                    'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+                mimeTypesMessage: 'Please upload a valid CSV or XLS file'

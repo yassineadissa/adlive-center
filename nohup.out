@@ -1,0 +1,114 @@
+[Wed Aug  9 08:41:10 2023] PHP 8.2.8 Development Server (http://0.0.0.0:3000) started
+[Wed Aug  9 08:41:27 2023] Failed to listen on 0.0.0.0:3000 (reason: Address already in use)
+[Wed Aug  9 08:41:35 2023] Failed to listen on 0.0.0.0:3000 (reason: Address already in use)
+[Wed Aug  9 08:41:45 2023] 93.22.151.7:37132 Accepted
+[Wed Aug  9 08:41:45 2023] 93.22.151.7:42838 Accepted
+[Wed Aug  9 08:41:46 2023] 93.22.151.7:37132 [200]: GET /en/admin/campaign/new
+[Wed Aug  9 08:41:46 2023] 93.22.151.7:37132 Closing
+[Wed Aug  9 08:41:46 2023] 93.22.151.7:42838 [200]: GET /vendors/bootstrap/dist/css/bootstrap.min.css
+[Wed Aug  9 08:41:46 2023] 93.22.151.7:36660 Accepted
+[Wed Aug  9 08:41:46 2023] 93.22.151.7:39685 Accepted
+[Wed Aug  9 08:41:46 2023] 93.22.151.7:35160 Accepted
+[Wed Aug  9 08:41:46 2023] 93.22.151.7:47628 Accepted
+[Wed Aug  9 08:41:46 2023] 93.22.151.7:39685 [200]: GET /vendors/font-awesome/css/font-awesome.min.css
+[Wed Aug  9 08:41:46 2023] 93.22.151.7:36660 [200]: GET /vendors/iCheck/skins/flat/green.css
+[Wed Aug  9 08:41:46 2023] 93.22.151.7:47628 [200]: GET /vendors/nprogress/nprogress.css
+[Wed Aug  9 08:41:46 2023] 93.22.151.7:36660 Closing
+[Wed Aug  9 08:41:46 2023] 93.22.151.7:47628 Closing
+[Wed Aug  9 08:41:46 2023] 93.22.151.7:35160 [200]: GET /vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css
+[Wed Aug  9 08:41:46 2023] 93.22.151.7:35160 Closing
+[Wed Aug  9 08:41:46 2023] 93.22.151.7:45119 Accepted
+[Wed Aug  9 08:41:46 2023] 93.22.151.7:45119 [200]: GET /vendors/jqvmap/dist/jqvmap.min.css
+[Wed Aug  9 08:41:46 2023] 93.22.151.7:45119 Closing
+[Wed Aug  9 08:41:46 2023] 93.22.151.7:39685 Closing
+[Wed Aug  9 08:41:46 2023] 93.22.151.7:42838 Closing
+[Wed Aug  9 08:41:46 2023] 93.22.151.7:45076 Accepted
+[Wed Aug  9 08:41:46 2023] 93.22.151.7:39241 Accepted
+[Wed Aug  9 08:41:47 2023] 93.22.151.7:45076 [200]: GET /build/css/custom.min.css
+[Wed Aug  9 08:41:47 2023] 93.22.151.7:45162 Accepted
+[Wed Aug  9 08:41:47 2023] 93.22.151.7:39241 [200]: GET /vendors/pnotify/dist/pnotify.css
+[Wed Aug  9 08:41:47 2023] 93.22.151.7:45162 [200]: GET /vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+[Wed Aug  9 08:41:47 2023] 93.22.151.7:39241 Closing
+[Wed Aug  9 08:41:47 2023] 93.22.151.7:45162 Closing
+[Wed Aug  9 08:41:47 2023] 93.22.151.7:45929 Accepted
+[Wed Aug  9 08:41:47 2023] 93.22.151.7:45929 [200]: GET /vendors/pnotify/dist/pnotify.buttons.css
+[Wed Aug  9 08:41:47 2023] 93.22.151.7:45929 Closing
+[Wed Aug  9 08:41:47 2023] 93.22.151.7:44384 Accepted
+[Wed Aug  9 08:41:47 2023] 93.22.151.7:44384 [200]: GET /vendors/pnotify/dist/pnotify.nonblock.css
+[Wed Aug  9 08:41:47 2023] 93.22.151.7:44384 Closing
+[Wed Aug  9 08:41:47 2023] 93.22.151.7:45076 Closing
+[Wed Aug  9 08:41:47 2023] 93.22.151.7:36437 Accepted
+[Wed Aug  9 08:41:47 2023] 93.22.151.7:36437 [200]: GET /vendors/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3
+[Wed Aug  9 08:41:48 2023] 93.22.151.7:36437 Closing
+[Wed Aug  9 08:41:58 2023] 93.22.151.7:45169 Accepted
+[Wed Aug  9 08:41:58 2023] 93.22.151.7:40290 Accepted
+[Wed Aug  9 08:41:58 2023] 93.22.151.7:40290 [200]: GET /en/admin/campaign/new
+[Wed Aug  9 08:41:58 2023] 93.22.151.7:40290 Closing
+[Wed Aug  9 08:41:58 2023] 93.22.151.7:45169 [200]: GET /vendors/bootstrap/dist/css/bootstrap.min.css
+[Wed Aug  9 08:41:58 2023] 93.22.151.7:35162 Accepted
+[Wed Aug  9 08:41:58 2023] 93.22.151.7:42075 Accepted
+[Wed Aug  9 08:41:58 2023] 93.22.151.7:47190 Accepted
+[Wed Aug  9 08:41:58 2023] 93.22.151.7:41776 Accepted
+[Wed Aug  9 08:41:58 2023] 93.22.151.7:41776 [200]: GET /vendors/font-awesome/css/font-awesome.min.css
+[Wed Aug  9 08:41:58 2023] 93.22.151.7:35162 [200]: GET /vendors/nprogress/nprogress.css
+[Wed Aug  9 08:41:58 2023] 93.22.151.7:35162 Closing
+[Wed Aug  9 08:41:58 2023] 93.22.151.7:47190 [200]: GET /vendors/iCheck/skins/flat/green.css
+[Wed Aug  9 08:41:58 2023] 93.22.151.7:47190 Closing
+[Wed Aug  9 08:41:58 2023] 93.22.151.7:42075 [200]: GET /vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css
+[Wed Aug  9 08:41:58 2023] 93.22.151.7:42075 Closing
+[Wed Aug  9 08:41:58 2023] 93.22.151.7:38985 Accepted
+[Wed Aug  9 08:41:58 2023] 93.22.151.7:41776 Closing
+[Wed Aug  9 08:41:58 2023] 93.22.151.7:38985 [200]: GET /vendors/jqvmap/dist/jqvmap.min.css
+[Wed Aug  9 08:41:58 2023] 93.22.151.7:38985 Closing
+[Wed Aug  9 08:41:59 2023] 93.22.151.7:45169 Closing
+[Wed Aug  9 08:41:59 2023] 93.22.151.7:44081 Accepted
+[Wed Aug  9 08:41:59 2023] 93.22.151.7:33046 Accepted
+[Wed Aug  9 08:41:59 2023] 93.22.151.7:36692 Accepted
+[Wed Aug  9 08:41:59 2023] 93.22.151.7:44081 [200]: GET /build/css/custom.min.css
+[Wed Aug  9 08:41:59 2023] 93.22.151.7:33046 [200]: GET /vendors/pnotify/dist/pnotify.css
+[Wed Aug  9 08:41:59 2023] 93.22.151.7:33046 Closing
+[Wed Aug  9 08:41:59 2023] 93.22.151.7:36692 [200]: GET /vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+[Wed Aug  9 08:41:59 2023] 93.22.151.7:36692 Closing
+[Wed Aug  9 08:41:59 2023] 93.22.151.7:46616 Accepted
+[Wed Aug  9 08:41:59 2023] 93.22.151.7:46616 [200]: GET /vendors/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3
+[Wed Aug  9 08:41:59 2023] 93.22.151.7:40226 Accepted
+[Wed Aug  9 08:41:59 2023] 93.22.151.7:44081 Closing
+[Wed Aug  9 08:41:59 2023] 93.22.151.7:33844 Accepted
+[Wed Aug  9 08:41:59 2023] 93.22.151.7:46616 Closing
+[Wed Aug  9 08:42:00 2023] 93.22.151.7:40226 [200]: GET /en/admin/campaign/new
+[Wed Aug  9 08:42:00 2023] 93.22.151.7:40226 Closing
+[Wed Aug  9 08:42:00 2023] 93.22.151.7:33844 [200]: GET /vendors/bootstrap/dist/css/bootstrap.min.css
+[Wed Aug  9 08:42:00 2023] 93.22.151.7:33845 Accepted
+[Wed Aug  9 08:42:00 2023] 93.22.151.7:47618 Accepted
+[Wed Aug  9 08:42:00 2023] 93.22.151.7:35351 Accepted
+[Wed Aug  9 08:42:00 2023] 93.22.151.7:47487 Accepted
+[Wed Aug  9 08:42:00 2023] 93.22.151.7:47618 [200]: GET /vendors/font-awesome/css/font-awesome.min.css
+[Wed Aug  9 08:42:00 2023] 93.22.151.7:33845 [200]: GET /vendors/nprogress/nprogress.css
+[Wed Aug  9 08:42:00 2023] 93.22.151.7:33845 Closing
+[Wed Aug  9 08:42:00 2023] 93.22.151.7:47487 [200]: GET /vendors/iCheck/skins/flat/green.css
+[Wed Aug  9 08:42:00 2023] 93.22.151.7:47487 Closing
+[Wed Aug  9 08:42:00 2023] 93.22.151.7:35351 [200]: GET /build/css/custom.min.css
+[Wed Aug  9 08:42:00 2023] 93.22.151.7:34845 Accepted
+[Wed Aug  9 08:42:00 2023] 93.22.151.7:47618 Closing
+[Wed Aug  9 08:42:00 2023] 93.22.151.7:34845 [200]: GET /vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+[Wed Aug  9 08:42:00 2023] 93.22.151.7:34845 Closing
+[Wed Aug  9 08:42:00 2023] 93.22.151.7:33844 Closing
+[Wed Aug  9 08:42:00 2023] 93.22.151.7:47464 Accepted
+[Wed Aug  9 08:42:00 2023] 93.22.151.7:44294 Accepted
+[Wed Aug  9 08:42:00 2023] 93.22.151.7:35351 Closing
+[Wed Aug  9 08:42:00 2023] 93.22.151.7:47464 [200]: GET /vendors/pnotify/dist/pnotify.css
+[Wed Aug  9 08:42:00 2023] 93.22.151.7:47464 Closing
+[Wed Aug  9 08:42:00 2023] 93.22.151.7:44294 [200]: GET /vendors/pnotify/dist/pnotify.buttons.css
+[Wed Aug  9 08:42:00 2023] 93.22.151.7:44294 Closing
+[Wed Aug  9 08:42:01 2023] 93.22.151.7:37168 Accepted
+[Wed Aug  9 08:42:01 2023] 93.22.151.7:44106 Accepted
+[Wed Aug  9 08:42:01 2023] 93.22.151.7:37168 [200]: GET /vendors/pnotify/dist/pnotify.nonblock.css
+[Wed Aug  9 08:42:01 2023] 93.22.151.7:37168 Closing
+[Wed Aug  9 08:42:01 2023] 93.22.151.7:44106 [200]: GET /vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css
+[Wed Aug  9 08:42:01 2023] 93.22.151.7:44106 Closing
+[Wed Aug  9 08:42:01 2023] 93.22.151.7:37638 Accepted
+[Wed Aug  9 08:42:01 2023] 93.22.151.7:37638 [200]: GET /vendors/jqvmap/dist/jqvmap.min.css
+[Wed Aug  9 08:42:01 2023] 93.22.151.7:37638 Closing
+[Wed Aug  9 08:42:01 2023] 93.22.151.7:36133 Accepted
+[Wed Aug  9 08:42:01 2023] 93.22.151.7:36133 [200]: GET /vendors/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3
+[Wed Aug  9 08:42:01 2023] 93.22.151.7:36133 Closing
