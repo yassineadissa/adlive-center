@@ -97,4 +97,4 @@ And use the next credentials to login.
 - - load mail with ajax
 - Add faker to generate fake data 
 - add SEO fields to each entity
-- upgrade to symfony 6.4 (the LTS version november 2023)
+- upgrade to symfony 6.4 (the LTS version november 2023)# adlive-center
